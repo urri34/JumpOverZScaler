@@ -1,0 +1,7 @@
+services:
+  firefox-boxed:
+   image: urri34/firefox-boxed
+   ports:
+    - "3000:3000" #VNX
+   volumes:
+    - /mnt:/config/Downloads
