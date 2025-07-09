@@ -2,12 +2,10 @@
 
 ## Linux VM installation
 
-If you are able to install a Linux Virtual Machine (any flavor) with a LAN static ip addres, and install dockers software in ... jump this section
+You must be able to install a Linux Virtual Machine (any flavor), and install dockers software in ... otherwise it's not for you. In my case using virtual box.
 
-Download last version of Oracle VirtualBox (from [https://www.virtualbox.org/wiki/Downloads]) and install it in normal basic installation.
+Mandatory to have the virtual machine with the network in bridge mode and a LAN statis ip address (in my case 192.168.1.21). Also to install the guest additions. With ll that things done, in the virtual machine:
 
-Download debian netinst iso (from [https://www.debian.org/CD/netinst/]).
+```
 
-Start OracleVirtualBox and create a virtual machine with 2GB of RAM. Select the Debian Netinst iso file, and make basic config for the unattended installation
-
-
+```
