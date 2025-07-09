@@ -18,5 +18,9 @@ C:\Users\username\VirtualBox VMs\Dockers\Share and /mnt/firefox-boxed
 ```
 And now just proceed with the docker creation:
 ```
-
+cd
+git clone https://github.com/urri34/JumpOverZScaler
+cd JumpOverZScaler
+chmod 750 make.sh
+./make.sh
 ```
