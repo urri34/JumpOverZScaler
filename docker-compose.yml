@@ -4,4 +4,4 @@ services:
    ports:
     - "3000:3000" #VNX
    volumes:
-    - /mnt:/config/Downloads
+    - /mnt/firefox-boxed:/config/Downloads
