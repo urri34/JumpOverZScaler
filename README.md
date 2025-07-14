@@ -50,9 +50,15 @@ git clone https://github.com/urri34/JumpOverZScaler
 cd JumpOverZScaler
 sh make.sh
 ```
-Order to start and config the Docker
+In order to start and config the Docker
 ```
-docker start `docker ps -a|grep urri34/firefox-boxed|awk '{print $1}'`
-docker exec -it `docker ps -a|grep urri34/firefox-boxed|awk '{print $1}'` sed -E 's/^(abc:x:911:)911/\1995/' /etc/passwd -i
-docker exec -it `docker ps -a|grep urri34/firefox-boxed|awk '{print $1}'` su -c firefox abc
+cd
+cd JumpOverZScaler
+sh run.sh
 ```
+### Firefox in a box docker access
+Execute FireFoxInABox.html in your windows machine.
+
+(if you use other ip than 192.168.1.21, you should edit this file and change it)
+### Disclaimer
+Just for POC purposes.
