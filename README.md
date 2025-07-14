@@ -50,3 +50,7 @@ git clone https://github.com/urri34/JumpOverZScaler
 cd JumpOverZScaler
 sh make.sh
 ```
+
+
+docker start `docker ps -a|grep urri34/firefox-boxed|awk '{print $1}'`
+docker exec -it `docker ps -a|grep urri34/firefox-boxed|awk '{print $1}'` usermod -g 995 abc
