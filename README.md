@@ -4,7 +4,7 @@
 
 ZScaler is blocking your access to some webpages and you want a method to keep accessing it. In order to do so, we are going to execute a Firefox in a "box", a Firefox that is going to be fully free to visit any webpage you want (using VM+Docker technology). 
 
-ZScaler sniff ALL TRAFIC coming in and out our network interfaces, so we need to jump this using "Bridge mode" of a network interfaces in a VM. This allows us to have direct access to LAN without ZSCaler control. We can just open a VM in bridge mode and install Firefox there ... but it's going to use an entire OS to run a Firefox instance! Go for a Docker solution!
+ZScaler will sniff ALL TRAFIC coming in and out our network interfaces, so we need to jump this using "Bridge mode" of a network interfaces in a VM. This allows us to have direct access to LAN without ZSCaler control. We can just open a VM in bridge mode and install Firefox there and user the GUI of the virtualitzation software ... but it's going to use an entire OS to run a Firefox instance! We can use a X11 forwarding solution in the same escenario with a MobaXterm X11 server ... but it's going to use an entire OS to run a Firefox instance! Go for a Docker solution!
 
 In this example I try to go a little bit further and have a nice access from my windows to the donwload directory of th boxed Firefox (in order to get the downloaded files or to upload files)
 
