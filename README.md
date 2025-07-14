@@ -15,6 +15,7 @@ You must be able to install a Linux Virtual Machine (any flavor), and install do
 If having doubts about what Linux OS, my prefered option is allways Debian with a very minimal installation:
 
 [NetInst media](https://www.debian.org/CD/netinst/)
+
 [Minimal installation instructions](https://www.howtoforge.com/tutorial/debian-minimal-server/)
 
 Let me give you also the official installation guide for dockers on Debian
